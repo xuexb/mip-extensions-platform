@@ -1,0 +1,24 @@
+{
+  "name": "mip-extensions-platform",
+  "version": "1.0.0",
+  "description": "MIP 审核平台组件",
+  "main": "index.js",
+  "scripts": {
+    "build": "mip-extension-optimise ./ -o ./dist",
+    "presite": "npm run build",
+    "site": "node tools/site.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mipengine/mip-extensions-platform.git"
+  },
+  "author": "MIP <mip-support@baidu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mipengine/mip-extensions-platform/issues"
+  },
+  "homepage": "https://github.com/mipengine/mip-extensions-platform#readme",
+  "dependencies": {
+    "mip-extension-optimizer": "^1.1.5"
+  }
+}
